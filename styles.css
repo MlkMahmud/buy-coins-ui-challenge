@@ -45,6 +45,8 @@ tbody tr:nth-of-type(odd) {
 nav {
   background: #f0f0f0;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav button {
@@ -55,6 +57,7 @@ nav button {
   font-size: inherit;
 }
 
-#next {
-  float: right;
+
+.hide {
+  visibility: hidden;
 }
