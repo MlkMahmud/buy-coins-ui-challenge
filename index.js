@@ -52,7 +52,6 @@ const handleNavigation = async (direction) => {
   updateRows(rows, coins);
 };
 
-
 window.addEventListener('load', async () => {
   const coins = await fetchCoins(start);
   start++;
